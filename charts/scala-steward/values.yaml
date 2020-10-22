@@ -13,28 +13,29 @@ scalaStewardArgs:
 
 additionalScalaStewardArgs:
   - --git-author-email
-  - MY_EMAIL
+  - robel.yemane@currencycloud.com
   - --vcs-login
-  - MY_LOGIN
+  - ryh-cc 
 
 additionalScalaStewardEnvs: {}
-repos: []
+repos:
+  - ccycloud/trading
 scalafixConfig: |
   disableDefaults = false
   migrations = []
 
 gitSecret: ""
-existingGitSecretName: ""
+existingGitSecretName: stewardsecret
 
 image:
-  tag: 0.5.0-460-aad4fc41-SNAPSHOT
+  tag: latest
   repository: fthomas/scala-steward
   pullPolicy: IfNotPresent
 
-schedule: "@daily"
+schedule: "0 7 * * * *"
 concurrencyPolicy: "Forbid"
 
-imagePullSecrets: []
+imagePullSecrets: [] 
 nameOverride: ""
 fullnameOverride: ""
 

@@ -1,2 +1,2 @@
 #!/bin/sh
-exec echo "$GIT_PASS"
+exec echo ${GIT_PASS}
