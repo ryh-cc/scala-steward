@@ -13,13 +13,13 @@ scalaStewardArgs:
 
 additionalScalaStewardArgs:
   - --git-author-email
-  - robel.yemane@currencycloud.com
+  - gh_tt01_u01@currencycloud.com
   - --vcs-login
-  - ryh-cc 
+  - gh_tt01_u01@currencycloud.com
 
 additionalScalaStewardEnvs: {}
 repos:
-  - ccycloud/trading
+  - ccycloud-org-sandbox/akka
 scalafixConfig: |
   disableDefaults = false
   migrations = []
