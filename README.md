@@ -1,27 +1,13 @@
-# The Garner Helm Chart Library
+# Scala Steward
 
-Applications provided by [Garner](https://garnercorp.io) ready to launch on [Kubernetes](https://kubernetes.io)
-using [Helm](https://helm.sh).
+[Scala Steward](https://github.com/fthomas/scala-steward) is a bot that helps you keep library dependencies and sbt plugins up-to-date.
 
-## Usage
-```sh
-helm repo add garnercorp https://garnercorp.github.io/charts
-helm search repo garnercorp
-helm install my-release garnercorp/<chart>
-```
+## Scala Steward Chart
 
-# License
+This repository contains the scala steward chart that was created by
+[garnercorp](https://www.garnercorp.com/#!/). As this is not maintained by the
+creators anymore it has been forked and will be maintained by currencycloud
+devs.
 
-Copyright (c) 2020 Garner Distributed Workflow Inc.
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+For instructions on how to install the chart see the `README` file inside the
+`charts` folder. 

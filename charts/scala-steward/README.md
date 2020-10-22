@@ -5,5 +5,5 @@
 ## TL;DR;
 
 ```sh
-helm install my-release garnercorp/scala-steward
+helm upgrade -i scalasteward .
 ```
